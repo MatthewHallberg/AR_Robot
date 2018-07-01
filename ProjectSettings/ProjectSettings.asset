@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: 108b66b375557400292a54f74221b5d0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -675,7 +675,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 374380b8-ebb5-4f62-9694-40f14d6c1d88
-  projectName: Template_3D
+  projectName: AR_Robot
   organizationId: matthewhallberg
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

@@ -94,8 +94,11 @@
     <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesNavigationHandler.cs" />
     <Compile Include="Assets\Scripts\CameraFeed.cs" />
     <Compile Include="Assets\Scripts\Client.cs" />
+    <Compile Include="Assets\Scripts\KeyboardInputBehavior.cs" />
     <Compile Include="Assets\Scripts\Loom.cs" />
+    <Compile Include="Assets\Scripts\RecieveMessageBehavior.cs" />
     <Compile Include="Assets\Scripts\SceneService.cs" />
+    <Compile Include="Assets\Scripts\SendMessageBehavior.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\UDTMessageBehavior.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
