@@ -10,8 +10,8 @@ public class Client : MonoBehaviour {
 	public RawImage image;
 	public bool enableLog = false;
 
-	const int port = 8010;
-	public string IP = "192.168.1.153";
+	const int port = 1999;
+	public string phoneIP = "";//mobile phone IPaddress
 	TcpClient client;
 
 	Texture2D tex;
@@ -22,25 +22,24 @@ public class Client : MonoBehaviour {
 	const int SEND_RECEIVE_COUNT = 15;
 
 	// Use this for initialization
-	void Start () {
+	IEnumerator Start () {
 		Application.runInBackground = true;
 
 		tex = new Texture2D (0, 0);
 		client = new TcpClient ();
 
-		//Connect to server from another Thread
-		Loom.RunAsync (() => {
-			LOGWARNING ("Connecting to server...");
-			Debug.Log ("Connecting to server");
-			// if on desktop
-			client.Connect (IPAddress.Loopback, port);
+		while (!client.Connected) {
+			try {
+				LOGWARNING ("Connecting to server...");
+				client.Connect (IPAddress.Parse (phoneIP), port);
+			} catch (SocketException s) {
+				Debug.Log ("Waiting for connection..." + s);
 
-			// if using the IPAD
-			//client.Connect(IPAddress.Parse(IP), port);
-			LOGWARNING ("Connected!");
-
-			imageReceiver ();
-		});
+			}
+			yield return new WaitForSeconds (1f);
+		}
+		LOGWARNING ("Connected!");
+		imageReceiver ();
 	}
 
 
@@ -158,6 +157,7 @@ public class Client : MonoBehaviour {
 		stop = true;
 
 		if (client != null) {
+			client.Client.Close ();
 			client.Close ();
 		}
 	}

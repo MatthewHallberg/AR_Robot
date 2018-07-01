@@ -62,7 +62,6 @@ public class Loom : MonoBehaviour {
 	}
 
 	public static Thread RunAsync (Action a) {
-		Debug.Log ("running thread....");
 		Initialize ();
 		while (numThreads >= maxThreads) {
 			Thread.Sleep (1);
@@ -85,16 +84,8 @@ public class Loom : MonoBehaviour {
 
 	void OnDisable () {
 		if (_current == this) {
-
 			_current = null;
 		}
-	}
-
-
-
-	// Use this for initialization
-	void Start () {
-
 	}
 
 	List<Action> _currentActions = new List<Action> ();
@@ -118,8 +109,5 @@ public class Loom : MonoBehaviour {
 		foreach (var delayed in _currentDelayed) {
 			delayed.action ();
 		}
-
-
-
 	}
 }

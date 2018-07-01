@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraFeed: {fileID: 1791879861}
-  enableLog: 1
+  enableLog: 0
 --- !u!114 &1791879861
 MonoBehaviour:
   m_ObjectHideFlags: 0

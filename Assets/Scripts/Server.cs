@@ -15,7 +15,7 @@ public class Server : MonoBehaviour {
 
 	private Texture2D currentTexture;
 	private TcpListener listner;
-	private const int port = 8010;
+	private const int port = 1999;
 	private bool stop = false;
 
 	private List<TcpClient> clients = new List<TcpClient> ();
@@ -23,9 +23,8 @@ public class Server : MonoBehaviour {
 	//This must be the-same with SEND_COUNT on the client
 	const int SEND_RECEIVE_COUNT = 15;
 
-	private void Start () {
+	private void OnEnable () {
 		Application.runInBackground = true;
-
 		//Start WebCam coroutine
 		StartCoroutine (initAndWaitForCamImage ());
 	}
@@ -54,8 +53,9 @@ public class Server : MonoBehaviour {
 		listner.Start ();
 
 		while (!cameraFeed.GetImageAvailable()) {
-			yield return null;
+			yield return new WaitForSeconds(1f);
 		}
+		currentTexture = new Texture2D (cameraFeed.getWidth (), cameraFeed.getHeight ());
 		Debug.Log ("got Cam Image");
 		//Start sending coroutine
 		StartCoroutine (senderCOR ());
@@ -70,14 +70,17 @@ public class Server : MonoBehaviour {
 
 		// Wait for client to connect in another Thread 
 		Loom.RunAsync (() => {
-			while (!stop) {
+			while (client == null) {
+				Debug.Log ("Listening...");
 				// Wait for client connection
 				client = listner.AcceptTcpClient ();
-				// We are connected
-				clients.Add (client);
+				if (client != null) {
+					// We are connected
+					clients.Add (client);
 
-				isConnected = true;
-				stream = client.GetStream ();
+					isConnected = true;
+					stream = client.GetStream ();
+				}
 			}
 		});
 
@@ -95,7 +98,6 @@ public class Server : MonoBehaviour {
 		while (!stop) {
 			//Wait for End of frame
 			yield return endOfFrame;
-
 			currentTexture.SetPixels (cameraFeed.GetImage().GetPixels());
 			byte [] pngBytes = currentTexture.EncodeToPNG ();
 			//Fill total byte length to send. Result is stored in frameBytesLength
@@ -132,15 +134,19 @@ public class Server : MonoBehaviour {
 	}
 
 	// stop everything
-	private void OnApplicationQuit () {
-		
+	private void OnDisable () {
 		stop = true;
 
 		if (listner != null) {
 			listner.Stop ();
+			listner.Server.Close ();
+			listner = null;
 		}
 
-		foreach (TcpClient c in clients)
+		foreach (TcpClient c in clients) {
+			c.Client.Close ();
 			c.Close ();
+		}
+		clients.Clear ();
 	}
 }

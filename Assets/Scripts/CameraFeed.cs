@@ -102,11 +102,24 @@ public class CameraFeed : MonoBehaviour {
 
 	public Texture2D GetImage () {
 		Texture2D camTex = new Texture2D (image.Width, image.Height);
+		image.CopyToTexture (camTex);	
 		return camTex;
 	}
 
+	public int getWidth () {
+		return image.Width;
+	}
+
+	public int getHeight () {
+		return image.Height;
+	}
+
 	public bool GetImageAvailable () {
-		return mAccessCameraImage;
+		if (image != null) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	#endregion //PRIVATE_METHODS
