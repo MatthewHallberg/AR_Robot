@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{9B17FA4B-3AEF-0E97-8DE7-3E5C34FAF9CB}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Client.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SamplesResources/SceneAssets/UserDefinedTargets/Scripts/UDTEventHandler.cs">
     <Files>
-      <File FileName="Assets/Scripts/Client.cs" Line="152" Column="1" />
-      <File FileName="Assets/Scripts/Server.cs" Line="18" Column="32" />
-      <File FileName="Assets/Scripts/Loom.cs" Line="88" Column="3" />
+      <File FileName="Assets/SamplesResources/SceneAssets/UserDefinedTargets/Scripts/UDTEventHandler.cs" Line="188" Column="91" />
+      <File FileName="Assets/Common/Scripts/TrackableSettings.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

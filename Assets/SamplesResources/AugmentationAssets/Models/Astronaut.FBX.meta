@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: c6045ffd0db911d418ecf014e1fbd650
+timeCreated: 1496356060
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AirHose
+    100002: Astronaut
+    100004: //RootNode
+    100006: Astronaut_Root
+    100008: bn_COG
+    100010: bn_Footsteps
+    100012: bn_Head
+    100014: bn_HeadEnd
+    100016: bn_LArm
+    100018: bn_LArmTwist
+    100020: bn_LCalf
+    100022: bn_LCalfTwist
+    100024: bn_LClav
+    100026: bn_LFoot
+    100028: bn_LForeArm
+    100030: bn_LForeArmTwist
+    100032: bn_LHand
+    100034: bn_LIndex1
+    100036: bn_LIndex2
+    100038: bn_LIndex3
+    100040: bn_LIndexEnd
+    100042: bn_LMiddle1
+    100044: bn_LMiddle2
+    100046: bn_LMiddle3
+    100048: bn_LMiddleEnd
+    100050: bn_LPinky1
+    100052: bn_LPinky2
+    100054: bn_LPinky3
+    100056: bn_LPinkyEnd
+    100058: bn_LRing1
+    100060: bn_LRing2
+    100062: bn_LRing3
+    100064: bn_LRingEnd
+    100066: bn_LThigh
+    100068: bn_LThighTwist
+    100070: bn_LThumb1
+    100072: bn_LThumb2
+    100074: bn_LThumb3
+    100076: bn_LThumbEnd
+    100078: bn_LToe
+    100080: bn_LToeEnd
+    100082: bn_Neck
+    100084: bn_Pelvis
+    100086: bn_RArm
+    100088: bn_RArmTwist
+    100090: bn_RCalf
+    100092: bn_RCalfTwist
+    100094: bn_RClav
+    100096: bn_RFoot
+    100098: bn_RForeArm
+    100100: bn_RForeArmTwist
+    100102: bn_RHand
+    100104: bn_RIndex1
+    100106: bn_RIndex2
+    100108: bn_RIndex3
+    100110: bn_RIndexEnd
+    100112: bn_RMiddle1
+    100114: bn_RMiddle2
+    100116: bn_RMiddle3
+    100118: bn_RMiddleEnd
+    100120: bn_RPinky1
+    100122: bn_RPinky2
+    100124: bn_RPinky3
+    100126: bn_RPinkyEnd
+    100128: bn_RRing1
+    100130: bn_RRing2
+    100132: bn_RRing3
+    100134: bn_RRingEnd
+    100136: bn_RThigh
+    100138: bn_RThighTwist
+    100140: bn_RThumb1
+    100142: bn_RThumb2
+    100144: bn_RThumb3
+    100146: bn_RThumbEnd
+    100148: bn_RToe
+    100150: bn_RToeEnd
+    100152: bn_Spine1
+    100154: bn_Spine2
+    100156: bn_Spine3
+    100158: bnHose01
+    100160: bnHose02
+    100162: bnHose03
+    100164: bnHose04
+    100166: bnHose05
+    100168: bnHose06
+    100170: bnHose07
+    100172: bnHose08
+    100174: bnHose09
+    100176: bnHose10
+    100178: bnHose11
+    100180: PropBone
+    100182: TeapotPropRef
+    400000: AirHose
+    400002: Astronaut
+    400004: //RootNode
+    400006: Astronaut_Root
+    400008: bn_COG
+    400010: bn_Footsteps
+    400012: bn_Head
+    400014: bn_HeadEnd
+    400016: bn_LArm
+    400018: bn_LArmTwist
+    400020: bn_LCalf
+    400022: bn_LCalfTwist
+    400024: bn_LClav
+    400026: bn_LFoot
+    400028: bn_LForeArm
+    400030: bn_LForeArmTwist
+    400032: bn_LHand
+    400034: bn_LIndex1
+    400036: bn_LIndex2
+    400038: bn_LIndex3
+    400040: bn_LIndexEnd
+    400042: bn_LMiddle1
+    400044: bn_LMiddle2
+    400046: bn_LMiddle3
+    400048: bn_LMiddleEnd
+    400050: bn_LPinky1
+    400052: bn_LPinky2
+    400054: bn_LPinky3
+    400056: bn_LPinkyEnd
+    400058: bn_LRing1
+    400060: bn_LRing2
+    400062: bn_LRing3
+    400064: bn_LRingEnd
+    400066: bn_LThigh
+    400068: bn_LThighTwist
+    400070: bn_LThumb1
+    400072: bn_LThumb2
+    400074: bn_LThumb3
+    400076: bn_LThumbEnd
+    400078: bn_LToe
+    400080: bn_LToeEnd
+    400082: bn_Neck
+    400084: bn_Pelvis
+    400086: bn_RArm
+    400088: bn_RArmTwist
+    400090: bn_RCalf
+    400092: bn_RCalfTwist
+    400094: bn_RClav
+    400096: bn_RFoot
+    400098: bn_RForeArm
+    400100: bn_RForeArmTwist
+    400102: bn_RHand
+    400104: bn_RIndex1
+    400106: bn_RIndex2
+    400108: bn_RIndex3
+    400110: bn_RIndexEnd
+    400112: bn_RMiddle1
+    400114: bn_RMiddle2
+    400116: bn_RMiddle3
+    400118: bn_RMiddleEnd
+    400120: bn_RPinky1
+    400122: bn_RPinky2
+    400124: bn_RPinky3
+    400126: bn_RPinkyEnd
+    400128: bn_RRing1
+    400130: bn_RRing2
+    400132: bn_RRing3
+    400134: bn_RRingEnd
+    400136: bn_RThigh
+    400138: bn_RThighTwist
+    400140: bn_RThumb1
+    400142: bn_RThumb2
+    400144: bn_RThumb3
+    400146: bn_RThumbEnd
+    400148: bn_RToe
+    400150: bn_RToeEnd
+    400152: bn_Spine1
+    400154: bn_Spine2
+    400156: bn_Spine3
+    400158: bnHose01
+    400160: bnHose02
+    400162: bnHose03
+    400164: bnHose04
+    400166: bnHose05
+    400168: bnHose06
+    400170: bnHose07
+    400172: bnHose08
+    400174: bnHose09
+    400176: bnHose10
+    400178: bnHose11
+    400180: PropBone
+    400182: TeapotPropRef
+    2300000: TeapotPropRef
+    3300000: TeapotPropRef
+    4300000: Astronaut
+    4300002: AirHose
+    4300004: TeapotPropRef
+    7400000: astronaut-idle
+    7400002: astronaut-refill
+    7400004: astronaut-wave
+    7400006: astronaut-enterHab
+    7400008: astronaut-idle-to-drilling
+    7400010: astronaut-drilling
+    7400012: astronaut-drilling-to-warning
+    7400014: astronaut-warning
+    7400016: astronaut-warning-to-refill
+    9500000: //RootNode
+    13700000: AirHose
+    13700002: Astronaut
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    autoMapExternalMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: astronaut-idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-refill
+      takeName: Take 001
+      firstFrame: 570
+      lastFrame: 990
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.10138641
+        functionName: AnimEvt_PickupOxygenTank
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.408
+        functionName: AnimEvt_DrainOxygenTank
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4093887
+        functionName: AnimEvent_PlayAudio
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.89333344
+        functionName: AnimEvt_DropOxygenTank
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-wave
+      takeName: Take 001
+      firstFrame: 1140
+      lastFrame: 1248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-enterHab
+      takeName: Take 001
+      firstFrame: 1260
+      lastFrame: 1332
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.898214
+        functionName: AnimEvt_CloseHabDoor
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-idle-to-drilling
+      takeName: Take 001
+      firstFrame: 1420
+      lastFrame: 1602
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-drilling
+      takeName: Take 001
+      firstFrame: 1610
+      lastFrame: 1678
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-drilling-to-warning
+      takeName: Take 001
+      firstFrame: 1680
+      lastFrame: 1725
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-warning
+      takeName: Take 001
+      firstFrame: 1730
+      lastFrame: 2120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: astronaut-warning-to-refill
+      takeName: Take 001
+      firstFrame: 2130
+      lastFrame: 2255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.555676
+        functionName: AnimEvt_ScaleDownDrill
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5.249345
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

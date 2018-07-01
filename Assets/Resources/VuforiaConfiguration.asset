@@ -8,15 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QVlOSXNHTC8vLy8vQUFBQUtJakdWTVZWQ0VWQWdHZzJNYnVNVzBROTd1bzVKTmVlRkZEeUZvY2Y0cjVCb3hqTG8wbTB6VmcyL25jYXNpSXVqWktIeHpuSTlSQnVmbGpyTXBUZGVJZ1JWUVplWTBSRTk2T0FEUGVqemNQRWlPUjFsZ1VwL2VDclFjd2RJdXI4Q084VlJCc1A5Zm5uRjEyRkFkUFBYNU9naFdjRzdwS1ZZUEtwYXN1OFQrVkhwVXZpRDJqUng2d0NHMWkyRmhXc3I2Tlk2VWdhdjFlRmVsanFoTVVuOEl3RFV0SVRlOWIwTFg3MVVmTW9wYjlIVkZ2QnBqUlpUd0lVcXVJNXYxemJjYngyTHZtSFhmUEpObVA4OGdWb08wdFJKb0NFMmxnSE80YTBwOTYvb3V0TS9lMUo0cVJHQlpkZHAzOEorSE9zZlZjN1g1ZTlqR1VUcDdVYUtGV1F0NjBzNkZpYlJuRTRON3BuT1FBczBWYTU=
+    ufoLicenseKey: QVRObDBnbi8vLy8vQUFBQUtBUkpnbzMxcWtxYmtGTnhodkJ0UkZSaEp6Z0JNS25oQWV3MHNDdjg0WXR5L3pqbUlmZFVTSko3em5aUjdsNk1pRnFhREJxd1EvTGd3UjhHakpWZ3Uxdi9xUHNWMmlrR29KNmhlY3IxRGdTYk9vZVFRQmkxNkdmUmRvazg3aDA4SU1DeVNSckVPS1U0alFJWHBtdTFHTmxiUXFqMmc5VlI0d2w2SVQxSHh5Z1FHTkpyTGVBeG8zNWE4UGEyVmhrU0Z5TndiU1lielNhZzBOWDRQQ0g0N2x3L0JBMG1lampNbTNqTEJCbHdUalNvcDlRek41bWRmQzhSb2RnTkZTTDFmTGd0T2pwQjQ3T2ovQnBmS2NlVElzSkJyd2gyU2Rlc1NNTnp1enZzRkg4NTVsck5tb2UxMHRQVGNsSjNTRVZVN3JtdFF2ZW9LTEppb0VQN3c2RTJlbmNnRnM0RkhjdTl1Mmdwd1ZaUEVQbG0=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Logitech Camera
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
