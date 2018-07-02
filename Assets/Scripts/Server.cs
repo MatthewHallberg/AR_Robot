@@ -99,7 +99,7 @@ public class Server : MonoBehaviour {
 			//Wait for End of frame
 			yield return endOfFrame;
 			currentTexture.SetPixels (cameraFeed.GetImage().GetPixels());
-			byte [] pngBytes = currentTexture.EncodeToPNG ();
+			byte [] pngBytes = currentTexture.EncodeToJPG (10);
 			//Fill total byte length to send. Result is stored in frameBytesLength
 			byteLengthToFrameByteArray (pngBytes.Length, frameBytesLength);
 

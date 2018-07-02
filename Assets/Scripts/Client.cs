@@ -99,6 +99,7 @@ public class Client : MonoBehaviour {
 		} else {
 			byteLength = frameByteArrayToByteLength (imageBytesCount);
 		}
+		imageBytesCount = null;
 		return byteLength;
 	}
 
@@ -135,7 +136,6 @@ public class Client : MonoBehaviour {
 			System.Threading.Thread.Sleep (1);
 		}
 	}
-
 
 	void displayReceivedImage (byte [] receivedImageBytes) {
 		tex.LoadImage (receivedImageBytes);

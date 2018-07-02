@@ -97,6 +97,7 @@
     <Compile Include="Assets\Scripts\KeyboardInputBehavior.cs" />
     <Compile Include="Assets\Scripts\Loom.cs" />
     <Compile Include="Assets\Scripts\RecieveMessageBehavior.cs" />
+    <Compile Include="Assets\Scripts\RobotFollowBehavior.cs" />
     <Compile Include="Assets\Scripts\SceneService.cs" />
     <Compile Include="Assets\Scripts\SendMessageBehavior.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />

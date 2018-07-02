@@ -156,6 +156,8 @@ public class UDTEventHandler : MonoBehaviour, IUserDefinedTargetEventHandler
         ImageTargetBehaviour imageTargetCopy = Instantiate(ImageTargetTemplate);
         imageTargetCopy.gameObject.name = "UserDefinedTarget-" + m_TargetCounter;
 
+		RobotFollowBehavior.Instance.SetNewTarget (imageTargetCopy.gameObject);
+
         // Add the duplicated trackable to the data set and activate it
         m_UDT_DataSet.CreateTrackable(trackableSource, imageTargetCopy.gameObject);
 
