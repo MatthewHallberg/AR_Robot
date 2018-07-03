@@ -18,7 +18,7 @@
     </CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.1.0f2</UnityVersion>
     <RootNamespace>
     </RootNamespace>
@@ -36,7 +36,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -46,15 +46,15 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -298,9 +298,73 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Fissure.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Habitat.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\OxygenTank.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\RockPileController.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\DrillController.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\FadeObject.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AstronautStateMachineBehaviour.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AugmentationStateMachineBehaviour.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\CloudReco\Scripts\CloudRecoContentManager.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\CloudReco\Scripts\CloudRecoEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\CloudReco\Scripts\CloudRecoTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\CloudReco\Scripts\ScanLine.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\CylinderTargets\Scripts\RotateAroundCylinder.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\ImageTargets\Scripts\ModelSwap.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\ImageTargets\Scripts\VideoController.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\ImageTargets\Scripts\VideoTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\MultiTargets\Scripts\MultiTargetTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\ObjectReco\Scripts\ObjectRecoTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\FrameQualityMeter.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\QualityDialog.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\UDTEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\UDTSettings.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Scripts\VirtualButtonEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\VuMark\Scripts\PanelShowHide.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\VuMark\Scripts\VuMarkHandler.cs" />
+    <Compile Include="Assets\SamplesResources\SceneAssets\VuMark\Scripts\VuMarkTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesAboutScreenInfo.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesMainMenu.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesNavigationHandler.cs" />
+    <Compile Include="Assets\Scripts\CameraFeed.cs" />
+    <Compile Include="Assets\Scripts\Client.cs" />
+    <Compile Include="Assets\Scripts\KeyboardInputBehavior.cs" />
+    <Compile Include="Assets\Scripts\Loom.cs" />
+    <Compile Include="Assets\Scripts\RecieveMessageBehavior.cs" />
+    <Compile Include="Assets\Scripts\RobotFollowBehavior.cs" />
     <Compile Include="Assets\Scripts\SceneService.cs" />
+    <Compile Include="Assets\Scripts\SendMessageBehavior.cs" />
+    <Compile Include="Assets\Scripts\Server.cs" />
+    <Compile Include="Assets\Scripts\UDTMessageBehavior.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
+    <None Include="Assets\Editor\Vuforia\ForPrint\ModelTarget\readme_3dprint.txt" />
+    <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
+    <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+    <None Include="Assets\SamplesResources\SceneAssets\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
+    <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="\Users\matthew\Desktop\AR_Robot\Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="\Users\matthew\Desktop\AR_Robot\Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="\Users\matthew\Desktop\AR_Robot\Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />

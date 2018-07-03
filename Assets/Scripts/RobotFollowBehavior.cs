@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RobotFollowBehavior : MonoBehaviour {
 
-	const float Z_BOUND = .4f;
-	const float X__LEFT_BOUND = .028f;
-	const float X__RIGHT_BOUND = .032f;
+	const float MAX_Z_BOUND = .4f;
+	const float MIN_Z_BOUND = .3f;
+	const float X__BOUND = .03f;
 
 	private static RobotFollowBehavior instance;
 
@@ -27,27 +27,25 @@ public class RobotFollowBehavior : MonoBehaviour {
 
 			if (currImageTarget.isTracking && canMove) {
 
-				//handle side to side 
-				if (currImageTarget.transform.position.x < X__LEFT_BOUND) {
+				//handle side to side with priority
+				if (currImageTarget.transform.position.x < -X__BOUND) {
 
 					StartCoroutine (MoveRobot ("l"));
 
-				} else if (currImageTarget.transform.position.x > X__RIGHT_BOUND) {
+				} else if (currImageTarget.transform.position.x > X__BOUND) {
 
 					StartCoroutine (MoveRobot ("r"));
-				}
 
-				print (currImageTarget.transform.position.x);
-
-				//handle forward and backward
-				if (currImageTarget.transform.position.z < Z_BOUND) {
+				} else if (currImageTarget.transform.position.z < MIN_Z_BOUND) {
 
 					StartCoroutine (MoveRobot ("b"));
 
-				} else if (currImageTarget.transform.position.z > Z_BOUND) {
+				} else if (currImageTarget.transform.position.z > MAX_Z_BOUND) {
 
 					StartCoroutine (MoveRobot ("f"));
 				}
+
+
 			}
 		} 
 	}
@@ -56,6 +54,9 @@ public class RobotFollowBehavior : MonoBehaviour {
 		canMove = false;
 		yield return new WaitForEndOfFrame ();
 		SendMessageBehavior.Instance.SendPacket (direction);
+		if (direction == "l" || direction == "r") {
+			yield return new WaitForEndOfFrame ();
+		}
 		yield return new WaitForEndOfFrame ();
 		SendMessageBehavior.Instance.SendPacket ("s");
 		yield return new WaitForEndOfFrame ();

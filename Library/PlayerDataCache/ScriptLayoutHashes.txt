@@ -1,6 +1,6 @@
-iOS
+Android
 PlayerPath?
-/Users/matthew/Desktop/Robot_IOS
+/Users/matthew/Desktop/AR_ROBOT.apk
 SceneListBegin?
 Assets/Scenes/Home.unity
 Assets/Scenes/Camera.unity
@@ -251,6 +251,7 @@ b98df4287f10618d81c8651d961e37b9 Assembly-CSharp.dll:.Server
 685435272821bcb4d44916f2887124fa Assembly-CSharp.dll:.VideoController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneService
 fe604caade361c267c96834c85d48a96 Assembly-CSharp.dll:.SendMessageBehavior
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RobotFollowBehavior
 187d8e01d552c59264029fda5af6e5b7 Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
 c447f5b6dc0e00a3ab6f23f40d21f912 Assembly-CSharp.dll:.VuMarkTrackableEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RecieveMessageBehavior
@@ -321,4 +322,3 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RobotFollowBehavior
