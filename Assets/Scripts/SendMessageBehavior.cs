@@ -13,7 +13,7 @@ public class SendMessageBehavior : MonoBehaviour {
 		get { return instance; }
 	}
 
-	[Header ("NODE MCU IP ADDRESS")]
+	[Header ("NODE MCU IP ADDRESS or COMPUTER IP ADDRESS")]
 	public string serverIP;
 
 	private const int PORT_NUM = 1998;
@@ -40,6 +40,7 @@ public class SendMessageBehavior : MonoBehaviour {
 		//init socket
 		sock = new Socket (AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 		serverAddr = IPAddress.Parse (serverIP);
+		print (serverAddr);
 		endPoint = new IPEndPoint (serverAddr, PORT_NUM);
 	}
 

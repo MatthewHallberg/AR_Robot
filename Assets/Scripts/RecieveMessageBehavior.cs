@@ -6,14 +6,15 @@ using System.Collections;
 
 public class RecieveMessageBehavior : MonoBehaviour {
 
-	private static RecieveMessageBehavior instance;
+	public ARPlaneController planeController;
+	private bool messageRecieved = false;
+	private string currPacket = "";
 
-	public static RecieveMessageBehavior Instance {
-		get { return instance; }
-	}
-
-	private void Awake () {
-		instance = this;
+	private void Update () {
+		if (messageRecieved) {
+			messageRecieved = false;
+			planeController.MessageRecieved (currPacket);
+		}
 	}
 
 	void Start () {
@@ -30,8 +31,10 @@ public class RecieveMessageBehavior : MonoBehaviour {
 		IPEndPoint receivedIpEndPoint = new IPEndPoint (IPAddress.Any, 0);
 		Byte [] receivedBytes = c.EndReceive (ar, ref receivedIpEndPoint);
 
-		string packet = System.Text.Encoding.UTF8.GetString (receivedBytes, 0, 20);
-		print (packet);
+		//string packet = System.Text.Encoding.UTF8.GetString (receivedBytes, 0, 20);
+		currPacket = System.Text.Encoding.UTF8.GetString (receivedBytes);
+		//flip bool so we can alert other thread
+		messageRecieved = true;
 
 		// Restart listening for udp data packages
 		c.BeginReceive (DataReceived, ar.AsyncState);

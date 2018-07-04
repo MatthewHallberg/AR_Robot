@@ -13,6 +13,7 @@ public class SceneService : MonoBehaviour {
 
 	private void Awake () {
 		instance = this;
+		Application.runInBackground = true;
 	}
 
 	public void LoadScene (string name) {
