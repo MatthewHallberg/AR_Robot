@@ -74,7 +74,8 @@ public class SamplesAboutScreenInfo
         string unityVersion = UnityEngine.Application.unityVersion;
         UnityEngine.Debug.Log("Vuforia " + vuforiaVersion + "\nUnity " + unityVersion);
 
-        string vuforia = Vuforia.VuforiaRuntime.Instance.InitializationState != Vuforia.VuforiaRuntime.InitState.NOT_INITIALIZED
+        string vuforia = Vuforia.VuforiaRuntime.Instance.HasInitialized != !Vuforia.VuforiaRuntime.Instance.HasInitialized
+
                                 ? "<color=green>Yes</color>"
                                 : "<color=red>No (enable Vuforia in XR Settings)</color>";
 
